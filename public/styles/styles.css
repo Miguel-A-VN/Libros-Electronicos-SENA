@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav-enlace{
+    display: inline-block;
+    text-decoration: none;
+    background: #EBB34B;
+    color: #242761;
+    font-size: 15pt;
+    padding: 10px 30px;
+}
+
+.nav-enlace:hover{
+    background: white;
+}
+
+nav{
+    background:#EBB34B;
+    text-align: center;
+}
+
+.landing{
+    background: #242761;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 90px;
+    color: #EBB34B;
+}
+
+.imagen1{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.eslogan{
+    padding-top: 70px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #EBB34B;
+    font-size: 40px;   
+}
+
+.informacion{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #EBB34B;
+}
+
+.imagen2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 600px;
+    padding-bottom: 50px;
+    
+}
+
+.texto1{
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: #242761;
+    
+}
+
+.imagen3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 600px;
+}
+
+.texto2{
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    color: #242761;
+    
+}
+
+.masinfo{
+    background: #242761;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.conoce{
+    text-align: center;
+    font-size: 50px;
+    color: #EBB34B;
+}
+
+.tabla {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .franja {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pregunta {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pregunta:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .contenido {
+    padding: 0 20px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .contenido p {
+    padding: 15px 0;
+  }
+  
+  .pregunta::after {
+    content: '+';
+    font-size: 20px;
+    float: right;
+  }
+  
+  .pregunta.active::after {
+    content: '-';
+  }
+
+  .unete{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #EBB34B;
+  }
+
+  .comunidad{
+    font-size: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #242761;
+  }
+
+  .clic{
+    
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+
+  }
