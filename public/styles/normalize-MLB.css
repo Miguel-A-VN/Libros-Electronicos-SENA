@@ -1,0 +1,70 @@
+/* TIPOGRAFIAS */
+
+    /* Roboto,Open Sans, Lato */
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+
+    /* COlORES PRINSIPALES DE LA PAGINA */
+    --amarillo-color: #FFB223;
+    --azul-color: #6E74E6;
+    --gris-color: #878795;
+
+    /* COLORES SECUNDARIOS DE LA PAGINA */
+
+    --grisClaro-color: #f7f7f8;
+    --blanco-color: #fff;
+    --negro-color: #000;
+}
+
+.font-roboto-400 {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-roboto-500, p{
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  }
+
+  .font-roboto-700 {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .font-roboto-500i {
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .font-roboto-700i {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* Lato */
+
+  .font-lato-700 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .font-open-sans-800, h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
