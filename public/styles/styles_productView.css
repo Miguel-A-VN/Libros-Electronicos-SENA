@@ -106,5 +106,6 @@ a.compraB{
     
     &:hover{
         background: var(--blanco-color);
+        color: var(--azul-color);
     }
 }
