@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #EBB34B ;
-}
-
 img {
     width: 100%;
     height: 100%;
@@ -11,27 +5,32 @@ img {
 
 .img_valorlibro { 
     display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .img_libro{
-    width: 40%;
+    width: 200px;
+    height: 350px;
 }
 
 .valor { 
-    width: 60%;
     font-size: 5rem;
-    background-color: #242761;
-    height: 800px;
-    margin-top: 11%;
-    color: #EBB34B;
+    background-color: var(--azul-color);
+    color: var(--blanco-color);
 
 }
 
 .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 300px;
-    background: #242761;
+    background: var(--azul-color);
     transform: skewY(5deg);
+    margin-top: 7%;
 }
 
 .titulo .contenido { 
@@ -42,7 +41,7 @@ img {
 }
 
 .titulo .contenido p {
-    color: #EBB34B;
+    color: var(--blanco-color);
     font-weight: bolder;
     font-size: 50px;
     transform: skewY(-5deg);
@@ -53,12 +52,12 @@ img {
     height: auto;
     margin-top: 5%;
     padding: 10px;
-    border-bottom: dashed #EBB34B;
+    border-bottom: dashed var(--blanco-color);
     transform: skewY(5deg);
 }
 
 .tituloseccion, .p {
-    color: #EBB34B;
+    color: var(--blanco-color);
     font-size: xx-large;
     text-align: center;
     font-weight: bolder;
@@ -74,8 +73,8 @@ img {
 }
 
 .section_tablaInformacion {
-    background-color: #242761;
-    color: #EBB34B;
+    background-color: var(--azul-color);
+    color: var(--blanco-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -5,6 +5,10 @@
 }
  
 
+.max-width-1400px{
+    height: 100vh;
+}
+
 .form-register{
     width: 400px;
     background: #383842;

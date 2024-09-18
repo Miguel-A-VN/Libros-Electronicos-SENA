@@ -80,9 +80,10 @@ ul{
     color: var(--azul-color);
   }
 
-  .max-width-300px{
-    max-width: 1300px;
+  .max-width-1400px{
+    max-width: 1400px;
     background: var(--blanco-color);
+    
   }
 
 *{
