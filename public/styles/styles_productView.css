@@ -3,6 +3,10 @@ img {
     height: 100%;
 }
 
+main{
+    margin: 50px;
+}
+
 .img_valorlibro { 
     display: flex;
     width: 100%;
@@ -16,10 +20,19 @@ img {
 }
 
 .valor { 
-    font-size: 5rem;
+    font-size: 1.5rem;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
     background-color: var(--azul-color);
     color: var(--blanco-color);
+    width: 50%;
 
+    p{
+        width: 100%;
+    }
 }
 
 .titulo {
@@ -56,7 +69,7 @@ img {
     transform: skewY(5deg);
 }
 
-.tituloseccion, .p {
+.titulosesion, .p {
     color: var(--blanco-color);
     font-size: xx-large;
     text-align: center;
@@ -72,11 +85,26 @@ img {
     transform: skewY(5deg);
 }
 
+.informacion{
+    margin-left: 10px;
+}
+
 .section_tablaInformacion {
-    background-color: var(--azul-color);
+   
     color: var(--blanco-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     transform: skewY(-5deg);
+    font-size: 0.9rem;
+}
+
+a.compraB{
+    text-align: center;
+    width: 200px;
+    
+    
+    &:hover{
+        background: var(--blanco-color);
+    }
 }
