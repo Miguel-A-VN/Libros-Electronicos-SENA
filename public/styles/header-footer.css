@@ -1,6 +1,7 @@
 header{
     width: 100%;
     padding: 20px;
+    height: 20vh;
 }
 .nav-enlace{
     display: inline-block;
@@ -28,8 +29,30 @@ ul {
     justify-content: center;
 }
 
+a{
+
+}
+
 .icons_login-sing-up{
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* FOOTER */
+
+footer{
+    height: 10vh;
+    background: var(--gris-color);
+}
+
+#h2_footer--librook{
+    color: var(--blanco-color);
+}
+
+.footer_log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

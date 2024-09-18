@@ -30,6 +30,10 @@ COLORES SECUNDARIOS DE LA PAGINA
 }
 
 .informacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -39,7 +43,6 @@ COLORES SECUNDARIOS DE LA PAGINA
     align-items: center;
     text-align: center;
     padding-top: 0;
-    margin-left: 600px;
     padding-bottom: 50px;
     
 }
@@ -52,11 +55,11 @@ COLORES SECUNDARIOS DE LA PAGINA
   }
 
 .imagen3{
+
     display: flex;
     align-items: center;
     text-align: center;
     padding-top: 0;
-    padding-left: 600px;
 }
 
 .texto2{

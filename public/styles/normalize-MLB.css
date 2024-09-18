@@ -34,13 +34,17 @@ ul{
   list-style-type: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .font-roboto-400 {
   font-family: "Roboto", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.font-roboto-500, p{
+.font-roboto-500, p, a{
   font-family: "Roboto", system-ui;
   font-weight: 500;
   font-style: normal;
