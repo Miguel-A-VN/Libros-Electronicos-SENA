@@ -18,6 +18,22 @@
     --negro-color: #000;
 }
 
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del elemento padre */
+}
+
+body{
+  background: var(--grisClaro-color);
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
 .font-roboto-400 {
   font-family: "Roboto", system-ui;
   font-weight: 400;
@@ -61,7 +77,14 @@
     font-weight: 800;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    color: var(--azul-color);
   }
+
+  .max-width-300px{
+    max-width: 1300px;
+    background: var(--blanco-color);
+  }
+
 *{
     margin: 0;
     padding: 0;

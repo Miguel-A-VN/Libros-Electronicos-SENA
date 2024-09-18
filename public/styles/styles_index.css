@@ -1,31 +1,20 @@
-.nav-enlace{
-    display: inline-block;
-    text-decoration: none;
-    background: #EBB34B;
-    color: #242761;
-    font-size: 15pt;
-    padding: 10px 30px;
-}
+/* COlORES PRINSIPALES DE LA PAGINA 
+--amarillo-color: #FFB223;
+--azul-color: #6E74E6;
+--gris-color: #878795;
 
-.nav-enlace:hover{
-    background: white;
-}
+COLORES SECUNDARIOS DE LA PAGINA
+--blanco-color: #fff;
+--negro-color: #000;
+ */
 
-nav{
-    background:#EBB34B;
-    text-align: center;
-}
-
-.landing{
-    background: #242761;
-}
 
 .titulo{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     font-size: 90px;
-    color: #EBB34B;
+    color: var(--amrillo-color);
 }
 
 .imagen1{
@@ -37,14 +26,12 @@ nav{
     padding-top: 70px;
     padding-bottom: 60px;
     text-align: center;
-    color: #EBB34B;
     font-size: 40px;   
 }
 
 .informacion{
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #EBB34B;
 }
 
 .imagen2{
@@ -62,9 +49,7 @@ nav{
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    color: #242761;
-    
-}
+  }
 
 .imagen3{
     display: flex;
@@ -78,13 +63,10 @@ nav{
     padding-left: 100px;
     display: inline-block;
     vertical-align: top;
-    text-align: left;
-    color: #242761;
-    
+    text-align: left;    
 }
 
 .masinfo{
-    background: #242761;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -92,13 +74,11 @@ nav{
 .conoce{
     text-align: center;
     font-size: 50px;
-    color: #EBB34B;
 }
 
 .tabla {
     max-width: 500px;
     margin: 50px auto;
-    background-color: white;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -111,7 +91,6 @@ nav{
     width: 100%;
     text-align: left;
     padding: 15px 20px;
-    background-color: #f8f8f8;
     border: none;
     outline: none;
     font-size: 18px;
@@ -120,13 +99,13 @@ nav{
   }
   
   .pregunta:hover {
-    background-color: #e2e2e2;
+    background-color: var(--gris-color);
   }
   
   .contenido {
     padding: 0 20px;
     display: none;
-    background-color: white;
+    background-color: var(--blanco-color);
     overflow: hidden;
   }
   
@@ -147,14 +126,12 @@ nav{
   .unete{
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #EBB34B;
   }
 
   .comunidad{
     font-size: 50px;
     padding-bottom: 30px;
     text-align: center;
-    color: #242761;
   }
 
   .clic{
@@ -162,11 +139,15 @@ nav{
     text-align: center;
     margin-top: 15px;
     padding: 15px 20px;
-    color: white;
-    background-color: black;
     border: none;
     outline: none;
     font-size: 18px;
     cursor: pointer;
-
+    background: var(--grisClaro-color);
+    color: var(--azul-color);
+  }
+  
+  .clic:hover{
+    background: var(--azul-color);
+    color: var(--blanco-color);
   }
